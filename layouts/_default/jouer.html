@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "fr" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ partial "head/css.html" }}
+    {{ partial "head/seo.html" . }}
+    {{ partial "head/favicons.html" . }}
+    {{ partial "head/rss.html" . }}
+    {{ partial "head/script.html" . }}
+    {{ partial "head/extras.html" . }}
+  </head>
+  <body class="{{ partial "GetBodyclass" . }}">
+    <div class="screen game" id="game">
+
+      <div class="game-ui">
+        <div class="coins">
+          <div class="coin"></div>
+          <div class="coins__picked">0</div> /
+          <div class="coins__total">0</div>
+        </div>
+      </div>
+
+      <audio src="/assets/sounds/city.mp3" id="sound-city">
+      <audio src="/assets/sounds/step-l.mp3" id="sound-step-l">
+      <audio src="/assets/sounds/step-r.mp3" id="sound-step-r">
+    </div>
+    {{ $js := resources.Get "js/play.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+    {{- if not hugo.IsProduction -}}
+      {{- partial "footer/debug.html" . -}}
+    {{- end -}}
+  </body>
+</html>

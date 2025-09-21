@@ -1,0 +1,92 @@
+#game
+    .screen
+        position: relative
+        min-height: 100vh
+
+    .close 
+        cursor: pointer
+        position: absolute
+        top: 20px
+        right: 20px
+        border-radius: 50%
+        transition: all 200ms
+        text-decoration: none
+        text-align: center
+        border: 0
+        background: none
+        appearance: none
+        @include icon-block('close-line')
+            color: $color-text
+    .popin
+        display: none
+        position: absolute
+        left: 30px
+        right: 30px
+        bottom: 30px
+        margin: 0 auto
+        justify-content: center
+        flex-direction: column
+        z-index: 10
+        @include media-breakpoint-down(desktop)
+            left: 0
+            right: 0
+            bottom: 0
+        .close
+            position: fixed
+            background: white
+            width: 60px
+            height: 60px
+            z-index: 10
+        &:not(.popin--offcanvas)
+            max-width: 600px
+            transition: 0.4s transform
+            transform: translateY(120%)
+            &.is-opened
+                transform: translateY(0)
+        &--offcanvas
+            background: white
+            inset: 0px
+            &.is-opened
+                display: block
+            @include media-breakpoint-down(desktop)
+                transform: translateX(100%)
+                &.is-opened
+                    transform: translateX(0)
+            @include media-breakpoint-up(desktop)
+                display: block
+                max-width: 600px
+                width: 60%
+                top: 0
+                bottom: 0
+                left: auto
+                right: 0
+                transform: translateX(100%)
+                &.is-opened
+                    transform: translateX(0)
+
+    .popin--offcanvas
+        .blocks
+            .container
+                padding-left: 0
+                padding-right: 0
+
+    .popin--end
+        display: none
+        position: absolute
+        top: 50%
+        bottom: auto
+        background: white
+        color: black
+        padding: $spacing-4
+        > * + *
+            margin-top: $spacing-3
+        h3
+            color: $color-accent
+        .close
+            margin-top: 0
+        .link-btn
+            background: black
+            color: white
+        &.is-opened
+            transform: translateY(-50%) !important
+            display: block !important
