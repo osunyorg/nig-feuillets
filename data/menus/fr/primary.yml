@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
@@ -15,4 +8,53 @@ items:
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Équipe
+  target: "/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Le digital libéral féodal
+  target: "/le-digital-liberal-feodal/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Les centrales nucléaires de l’IA
+    target: "/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia"
+    file: content/fr/pages/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia/_index.html
+  - title: La montagne de gadgets inutiles
+    target: "/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles"
+    file: content/fr/pages/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles/_index.html
+  path: "/pages/le-digital-liberal-feodal"
+  file: content/fr/pages/le-digital-liberal-feodal/_index.html
+- title: Le numérique d’intérêt général
+  target: "/le-numerique-dinteret-general/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Les moulins de la joie
+    target: "/le-numerique-dinteret-general/les-moulins-de-la-joie/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/les-moulins-de-la-joie"
+    file: content/fr/pages/le-numerique-dinteret-general/les-moulins-de-la-joie/_index.html
+  - title: La colline des besoins réels
+    target: "/le-numerique-dinteret-general/la-colline-des-besoins-reels/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels"
+    file: content/fr/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels/_index.html
+  path: "/pages/le-numerique-dinteret-general"
+  file: content/fr/pages/le-numerique-dinteret-general/_index.html
 
