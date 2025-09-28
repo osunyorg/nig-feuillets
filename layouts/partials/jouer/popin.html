@@ -1,0 +1,29 @@
+{{ $page := .page }}
+{{ $index := .index }}
+{{ $with_button := .with_button }}
+{{ with $page }}
+  <li class="popin popin--offcanvas" id="{{ .Params.slug }}">
+    <button class="close" title="Fermer"></button>
+    <div class="city">
+      {{ partial "commons/image.html"
+        (dict
+          "image" .Params.image
+          "sizes" (dict "mobile" "220"
+                        "tablet" "220"
+                        "desktop" "300")
+          "lazy"  false
+        ) }}
+      <div class="content">
+        <h2 class="h1">{{ .Title }}</h2>
+        <h3>{{ .Params.summary | safeHTML }}</h3>
+        {{ partial "contents/list" (dict
+          "context" .
+          "contents" .Params.contents
+        ) }}
+        {{ if $with_button }}
+          <button class="change-city-action btn" data-index="{{ $index }}">Découvrir</button>
+        {{ end }}
+      </div>
+    </div>
+  </li>
+{{ end }}

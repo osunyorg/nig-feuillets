@@ -4,6 +4,6 @@ import getImageExtension from './play/utils/detectImageSupport';
 import settings from './play/data/settings';
 
 ( async () => {
-    // ui.setup();
+    ui.setup();
     game.setup();
 })();

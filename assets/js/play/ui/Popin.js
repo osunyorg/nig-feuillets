@@ -15,9 +15,25 @@ export class Popin {
     };
 
     this.closingTimeout = null;
-
+    this.bindButtons();
+  }
+  attach(city) {
+    this.city = city;
+  }
+  bindButtons() {
     this.buttonClose = this.element.querySelector('.close'); 
-    if(this.buttonClose) this.buttonClose.addEventListener('click', this.close.bind(this));
+    this.buttonChange = this.element.querySelector('.change-city-action');
+
+    if (this.buttonClose) {
+      this.buttonClose.addEventListener('click', this.close.bind(this));
+    }
+
+    if (this.buttonChange) {
+      this.buttonChange.addEventListener('click', () => {
+        this.city.change();
+        this.close();
+      });
+    }
   }
   open() {
     if (this.state.opening || this.state.opened) return;
@@ -51,5 +67,6 @@ export class Popin {
       this.element.style.display = "none";
       document.body.classList.remove(this.classes.bodyClosing);
     }, 400);
+
   }
 }

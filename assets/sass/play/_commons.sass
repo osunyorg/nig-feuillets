@@ -90,3 +90,23 @@
         &.is-opened
             transform: translateY(-50%) !important
             display: block !important
+
+.city
+    background-color: $color-background
+    padding: $spacing-1
+    height: 100%
+    overflow-y: auto
+    @include media-breakpoint-up(md)
+        padding: var(--grid-gutter)
+    .content > *
+        margin-top: $spacing-3
+        margin-bottom: $spacing-3
+    img
+        width: 220px
+        max-width: 90%
+        margin: 0 auto
+        display: block
+        @include media-breakpoint-up(xl)
+            width: 23vw
+    .h1
+        text-align: left

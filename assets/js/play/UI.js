@@ -9,9 +9,9 @@ class UI {
       this.popins[element.id] = new Popin(element);
     });
 
-    this.coinsContainer = document.querySelector('.coins');
-    this.coinsPicked = 0;
-    this.coinsTotal = document.querySelectorAll('.definitions .definition').length;
+    // this.coinsContainer = document.querySelector('.coins');
+    // this.coinsPicked = 0;
+    // this.coinsTotal = document.querySelectorAll('.definitions .definition').length;
     this.update();
   }
   closeAllPopins(excepted) {
@@ -30,20 +30,20 @@ class UI {
   closePopin(id) {
     this.popins[id].close();
   }
-  collectCoin(id) {
-    this.coinsPicked += 1;
-    document.getElementById('sound-coin').play();
-    this.closePopin(id)
-    this.update();
-    if (this.coinsTotal === this.coinsPicked) {
-      const url = window.trollImages[Math.floor(Math.random() * window.trollImages.length)];
-      document.getElementById('gift-url').href = url;
-      this.openPopin('game-end');
-    }
-  }
+  // collectCoin(id) {
+  //   this.coinsPicked += 1;
+  //   document.getElementById('sound-coin').play();
+  //   this.closePopin(id)
+  //   this.update();
+  //   if (this.coinsTotal === this.coinsPicked) {
+  //     const url = window.trollImages[Math.floor(Math.random() * window.trollImages.length)];
+  //     document.getElementById('gift-url').href = url;
+  //     this.openPopin('game-end');
+  //   }
+  // }
   update() {
-    document.querySelector('.coins__picked').innerHTML = this.coinsPicked;
-    document.querySelector('.coins__total').innerHTML = this.coinsTotal;
+    // document.querySelector('.coins__picked').innerHTML = this.coinsPicked;
+    // document.querySelector('.coins__total').innerHTML = this.coinsTotal;
   }
 }
 

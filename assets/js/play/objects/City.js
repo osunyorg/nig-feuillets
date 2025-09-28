@@ -18,13 +18,13 @@ export default class City extends SpeakingThing {
     this.isCollided = false;
     this.wasCollided = false;
     
-    // this.dialog.classList.add('game-dialog--action');
-    // this.dialog.addEventListener('click', () => this.openPopin());
+    this.dialog.classList.add('game-dialog--action');
+    this.dialog.addEventListener('click', () => this.openPopin());
 
     // this.setImageFromDom();
 
-    this.popin = UI.getPopin(this.data.id);
-
+    this.attach(this.data.id);
+    
     // if (this.data.sign) {
     //   this.data.sign.x += this.data.x;
     //   this.data.sign.y += this.data.y;
@@ -35,6 +35,13 @@ export default class City extends SpeakingThing {
     // }
 
     // this.setupAnimation();
+  }
+
+  attach(id) {
+    this.popin = UI.getPopin(id);
+    if (this.popin) {
+      this.popin.attach(this);
+    }
   }
 
   setImageFromDom() {
@@ -66,20 +73,27 @@ export default class City extends SpeakingThing {
   onCollide() {
     super.onCollide();
     if (!this.wasCollided) {
-      this.src = this.data.transformation.src;
-      this.x = this.data.transformation.x;
-      this.y = this.data.transformation.y;
-      game.scene.hero.isWalkingToTarget = false;
+      
     }
   }
 
   startCollide() {
-    // UI.openPopin(this.data.id);
+    UI.openPopin(this.data.id);
     document.getElementById('sound-city').play();
   }
 
   stopCollide() {
-    // this.popin.close();
+    this.popin.close();
+  }
+
+  change() {
+      this.src = this.data.transformation.src;
+      this.x = this.data.transformation.x;
+      this.y = this.data.transformation.y;
+      this.data.id = this.data.transformation.id
+      this.attach(this.data.id);
+
+      game.scene.hero.isWalkingToTarget = false;
   }
 
   update() {

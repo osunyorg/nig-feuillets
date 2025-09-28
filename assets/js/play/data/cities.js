@@ -25,22 +25,26 @@ const path = '/assets/images/jouer/objects/';
 
 export const CITIES = [
   {
+    id: 'les-centrales-nucleaires-de-lia',
     src: `${path}0000_centrales-nucleaires-de-l_IA.png`,
     x: 200,
     y: -20,
     depthOffset: 0,
     transformation: {
+      id: 'les-moulins-de-la-joie',
       src: `${path}0001_moulins-de-la-joie.png`,
       x: 200,
       y: 30,
     }
   },
   {
+    id: 'la-montagne-de-gadgets-inutiles',
     src: `${path}0001_Montagne-des-gadgets-inutiles.png`,
     x: 500,
     y: 50,
     depthOffset: 0,
     transformation: {
+      id: 'la-colline-des-besoins-reels',
       src: `${path}0000_colline-des-besoins-reels.png`,
       x: 500,
       y: 100,
