@@ -20,36 +20,39 @@
           <div class="coins__total">0</div>
         </div>
       </div>
-
-      <div id="nig-cities">
-        <ul>
-          {{ with site.GetPage "/pages/le-numerique-dinteret-general" }}
-            {{ range $index, $page := .Pages }}
-              {{ partial "jouer/popin.html" (dict
-                "page" $page
-                "index" $index
-              ) }}
-            {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-      <div id="dlf-cities">
-        <ul>
-          {{ with site.GetPage "/pages/le-digital-liberal-feodal" }}
-            {{ range $index, $page := .Pages }}
-              {{ partial "jouer/popin.html" (dict
-                "page" $page
-                "index" $index
-                "with_button" true
-              ) }}
-            {{ end }}
-          {{ end }}
-        </ul>
-      </div>
       <audio src="/assets/sounds/city.mp3" id="sound-city">
       <audio src="/assets/sounds/step-l.mp3" id="sound-step-l">
       <audio src="/assets/sounds/step-r.mp3" id="sound-step-r">
     </div>
+
+    <div id="nig-cities">
+      <ul>
+        {{ with site.GetPage "/pages/le-numerique-dinteret-general" }}
+          {{ range $index, $page := .Pages }}
+            {{ partial "jouer/popin.html" (dict
+              "page" $page
+              "index" $index
+              "class" "light"
+            ) }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+    <div id="dlf-cities">
+      <ul>
+        {{ with site.GetPage "/pages/le-digital-liberal-feodal" }}
+          {{ range $index, $page := .Pages }}
+            {{ partial "jouer/popin.html" (dict
+              "page" $page
+              "index" $index
+              "class" "dark"
+              "with_button" true
+            ) }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+
     {{ $js := resources.Get "js/play.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
     <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
     {{- if not hugo.IsProduction -}}

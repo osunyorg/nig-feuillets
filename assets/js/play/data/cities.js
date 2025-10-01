@@ -52,12 +52,12 @@ export const CITIES = [
   },
   {
     src: `${path}0002_gouffre-des-travailleurs-du-clic.png`,
-    x: 470,
+    x: 680,
     y: 300,
     depthOffset: -50,
     transformation: {
       src: `${path}0002_plancher-social.png`,
-      x: 470,
+      x: 680,
       y: 300,
     }
   },
