@@ -2,18 +2,28 @@ import Controls from "js/play/Controls";
 import Character from "./Character"
 import { WORLD } from "js/play/data/world";
 import 'js/play/utils/lerp';
+
+
 export default class Hero extends Character {
   constructor({x = 0, y = 0}) {
-    const width = 128 * WORLD.characters.scale,
-      height = 150 * WORLD.characters.scale;
+    const dimensions = {
+        src: {
+          width: 256,
+          height: 358
+        },
+        scale: WORLD.characters.scale
+      },
+      width = dimensions.src.width * WORLD.characters.scale,
+      height = dimensions.src.height * WORLD.characters.scale,
+      steps = 8;
     super({
       x,
       y,
       width: width,
       height: height,
-      srcWidth: 256,
-      srcHeight: 300,
-      src: '/assets/images/jouer/characters/alice.png',
+      srcWidth: dimensions.src.width,
+      srcHeight: dimensions.src.height,
+      src: '/assets/images/jouer/characters/hero.png',
       hitbox: {
         x: width * 0.25,
         y: height * 0.4,
@@ -22,17 +32,19 @@ export default class Hero extends Character {
       },
       animations: {
         idle: {
-          steps: 8,
-          y: 0,
-          framesPerTick: 18
+          steps: steps,
+          y: dimensions.src.height * 2,
+          framesPerTick: 10
         },
         walk: {
-          steps: 8,
-          y: 300
+          steps: steps,
+          y: dimensions.src.height,
+          framesPerTick: 6
         },
         reversedWalk: {
-          steps: 8,
-          y: 600
+          steps: steps,
+          y: 0,
+          framesPerTick: 6
         }
       }
     });

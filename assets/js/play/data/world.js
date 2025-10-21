@@ -13,7 +13,7 @@ export const WORLD = {
     y: 450
   },
   characters: {
-    scale: 1
+    scale: 0.25
   },
   cities: {
     scale: 1
