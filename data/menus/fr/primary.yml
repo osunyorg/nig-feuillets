@@ -41,6 +41,13 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels"
     file: content/fr/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels/_index.html
+  - title: le plancher social
+    target: "/le-numerique-dinteret-general/le-plancher-social/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/le-plancher-social"
+    file: content/fr/pages/le-numerique-dinteret-general/le-plancher-social/_index.html
   path: "/pages/le-numerique-dinteret-general"
   file: content/fr/pages/le-numerique-dinteret-general/_index.html
 - title: Organisations
@@ -57,4 +64,11 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
+- title: la recyclerie
+  target: "/la-recyclerie/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/la-recyclerie"
+  file: content/fr/pages/la-recyclerie/_index.html
 
