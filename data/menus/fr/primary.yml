@@ -48,6 +48,20 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/le-plancher-social"
     file: content/fr/pages/le-numerique-dinteret-general/le-plancher-social/_index.html
+  - title: la forêt comestible
+    target: "/le-numerique-dinteret-general/la-foret-comestible/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-foret-comestible"
+    file: content/fr/pages/le-numerique-dinteret-general/la-foret-comestible/_index.html
+  - title: la caravane collective
+    target: "/le-numerique-dinteret-general/la-caravane-collective/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-caravane-collective"
+    file: content/fr/pages/le-numerique-dinteret-general/la-caravane-collective/_index.html
   path: "/pages/le-numerique-dinteret-general"
   file: content/fr/pages/le-numerique-dinteret-general/_index.html
 - title: Organisations
@@ -71,4 +85,18 @@ items:
   children: []
   path: "/pages/la-recyclerie"
   file: content/fr/pages/la-recyclerie/_index.html
+- title: les chemins de traverse
+  target: "/les-chemins-de-traverse/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/les-chemins-de-traverse"
+  file: content/fr/pages/les-chemins-de-traverse/_index.html
+- title: le carrefour des possibles
+  target: "/le-carrefour-des-possibles/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/le-carrefour-des-possibles"
+  file: content/fr/pages/le-carrefour-des-possibles/_index.html
 
