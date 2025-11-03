@@ -111,6 +111,20 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/le-chateau-fort"
     file: content/fr/pages/le-numerique-dinteret-general/le-chateau-fort/_index.html
+  - title: l'atelier d'artistes
+    target: "/le-numerique-dinteret-general/latelier-dartistes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/latelier-dartistes"
+    file: content/fr/pages/le-numerique-dinteret-general/latelier-dartistes/_index.html
+  - title: le contrat local
+    target: "/le-numerique-dinteret-general/le-contrat-local/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/le-contrat-local"
+    file: content/fr/pages/le-numerique-dinteret-general/le-contrat-local/_index.html
   path: "/pages/le-numerique-dinteret-general"
   file: content/fr/pages/le-numerique-dinteret-general/_index.html
 - title: Organisations
@@ -127,4 +141,11 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
+- title: deux fleurs
+  target: "/deux-fleurs/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/deux-fleurs"
+  file: content/fr/pages/deux-fleurs/_index.html
 
