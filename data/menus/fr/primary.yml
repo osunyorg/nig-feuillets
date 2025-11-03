@@ -265,6 +265,13 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/deux-fleurs"
     file: content/fr/pages/le-numerique-dinteret-general/deux-fleurs/_index.html
+  - title: la clairière lumineuse
+    target: "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-clairiere-lumineuse"
+    file: content/fr/pages/le-numerique-dinteret-general/la-clairiere-lumineuse/_index.html
   - title: l'atelier artisanal
     target: "/le-numerique-dinteret-general/latelier-artisanal/"
     kind: page
@@ -279,13 +286,6 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite"
     file: content/fr/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite/_index.html
-  - title: la clairière lumineuse
-    target: "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/le-numerique-dinteret-general/la-clairiere-lumineuse"
-    file: content/fr/pages/le-numerique-dinteret-general/la-clairiere-lumineuse/_index.html
   - title: les prés du libre
     target: "/le-numerique-dinteret-general/les-pres-du-libre/"
     kind: page
