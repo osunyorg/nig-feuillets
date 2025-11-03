@@ -111,6 +111,48 @@ items:
     children: []
     path: "/pages/le-digital-liberal-feodal/le-tunnel-technicien"
     file: content/fr/pages/le-digital-liberal-feodal/le-tunnel-technicien/_index.html
+  - title: la nudge factory
+    target: "/le-digital-liberal-feodal/la-nudge-factory/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/la-nudge-factory"
+    file: content/fr/pages/le-digital-liberal-feodal/la-nudge-factory/_index.html
+  - title: la tour en ruines
+    target: "/le-digital-liberal-feodal/la-tour-en-ruines/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/la-tour-en-ruines"
+    file: content/fr/pages/le-digital-liberal-feodal/la-tour-en-ruines/_index.html
+  - title: les accords internationaux
+    target: "/le-digital-liberal-feodal/les-accords-internationaux/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-accords-internationaux"
+    file: content/fr/pages/le-digital-liberal-feodal/les-accords-internationaux/_index.html
+  - title: les câbles transatlantiques
+    target: "/le-digital-liberal-feodal/les-cables-transatlantiques/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-cables-transatlantiques"
+    file: content/fr/pages/le-digital-liberal-feodal/les-cables-transatlantiques/_index.html
+  - title: le marais des sombres desseins
+    target: "/le-digital-liberal-feodal/le-marais-des-sombres-desseins/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/le-marais-des-sombres-desseins"
+    file: content/fr/pages/le-digital-liberal-feodal/le-marais-des-sombres-desseins/_index.html
+  - title: le crypto pigeonnier
+    target: "/le-digital-liberal-feodal/le-crypto-pigeonnier/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/le-crypto-pigeonnier"
+    file: content/fr/pages/le-digital-liberal-feodal/le-crypto-pigeonnier/_index.html
   path: "/pages/le-digital-liberal-feodal"
   file: content/fr/pages/le-digital-liberal-feodal/_index.html
 - title: Le numérique d’intérêt général
@@ -118,13 +160,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Les moulins de la joie
-    target: "/le-numerique-dinteret-general/les-moulins-de-la-joie/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/le-numerique-dinteret-general/les-moulins-de-la-joie"
-    file: content/fr/pages/le-numerique-dinteret-general/les-moulins-de-la-joie/_index.html
   - title: La colline des besoins réels
     target: "/le-numerique-dinteret-general/la-colline-des-besoins-reels/"
     kind: page
@@ -132,6 +167,13 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels"
     file: content/fr/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels/_index.html
+  - title: Les moulins de la joie
+    target: "/le-numerique-dinteret-general/les-moulins-de-la-joie/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/les-moulins-de-la-joie"
+    file: content/fr/pages/le-numerique-dinteret-general/les-moulins-de-la-joie/_index.html
   - title: le plancher social
     target: "/le-numerique-dinteret-general/le-plancher-social/"
     kind: page
@@ -139,20 +181,6 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/le-plancher-social"
     file: content/fr/pages/le-numerique-dinteret-general/le-plancher-social/_index.html
-  - title: la forêt comestible
-    target: "/le-numerique-dinteret-general/la-foret-comestible/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/le-numerique-dinteret-general/la-foret-comestible"
-    file: content/fr/pages/le-numerique-dinteret-general/la-foret-comestible/_index.html
-  - title: la caravane collective
-    target: "/le-numerique-dinteret-general/la-caravane-collective/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/le-numerique-dinteret-general/la-caravane-collective"
-    file: content/fr/pages/le-numerique-dinteret-general/la-caravane-collective/_index.html
   - title: la recyclerie
     target: "/le-numerique-dinteret-general/la-recyclerie/"
     kind: page
@@ -167,6 +195,20 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/les-chemins-de-traverse"
     file: content/fr/pages/le-numerique-dinteret-general/les-chemins-de-traverse/_index.html
+  - title: la forêt comestible
+    target: "/le-numerique-dinteret-general/la-foret-comestible/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-foret-comestible"
+    file: content/fr/pages/le-numerique-dinteret-general/la-foret-comestible/_index.html
+  - title: la caravane collective
+    target: "/le-numerique-dinteret-general/la-caravane-collective/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-caravane-collective"
+    file: content/fr/pages/le-numerique-dinteret-general/la-caravane-collective/_index.html
   - title: le carrefour des possibles
     target: "/le-numerique-dinteret-general/le-carrefour-des-possibles/"
     kind: page
@@ -237,6 +279,13 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite"
     file: content/fr/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite/_index.html
+  - title: la clairière lumineuse
+    target: "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-clairiere-lumineuse"
+    file: content/fr/pages/le-numerique-dinteret-general/la-clairiere-lumineuse/_index.html
   - title: les prés du libre
     target: "/le-numerique-dinteret-general/les-pres-du-libre/"
     kind: page
@@ -274,11 +323,4 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: le crypto pigeonnier
-  target: "/le-crypto-pigeonnier/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/le-crypto-pigeonnier"
-  file: content/fr/pages/le-crypto-pigeonnier/_index.html
 
