@@ -62,6 +62,55 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/la-caravane-collective"
     file: content/fr/pages/le-numerique-dinteret-general/la-caravane-collective/_index.html
+  - title: la recyclerie
+    target: "/le-numerique-dinteret-general/la-recyclerie/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-recyclerie"
+    file: content/fr/pages/le-numerique-dinteret-general/la-recyclerie/_index.html
+  - title: les chemins de traverse
+    target: "/le-numerique-dinteret-general/les-chemins-de-traverse/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/les-chemins-de-traverse"
+    file: content/fr/pages/le-numerique-dinteret-general/les-chemins-de-traverse/_index.html
+  - title: le carrefour des possibles
+    target: "/le-numerique-dinteret-general/le-carrefour-des-possibles/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/le-carrefour-des-possibles"
+    file: content/fr/pages/le-numerique-dinteret-general/le-carrefour-des-possibles/_index.html
+  - title: la caisse commune
+    target: "/le-numerique-dinteret-general/la-caisse-commune/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/la-caisse-commune"
+    file: content/fr/pages/le-numerique-dinteret-general/la-caisse-commune/_index.html
+  - title: les jardins en permaculture
+    target: "/le-numerique-dinteret-general/les-jardins-en-permaculture/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/les-jardins-en-permaculture"
+    file: content/fr/pages/le-numerique-dinteret-general/les-jardins-en-permaculture/_index.html
+  - title: le fablab
+    target: "/le-numerique-dinteret-general/le-fablab/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/le-fablab"
+    file: content/fr/pages/le-numerique-dinteret-general/le-fablab/_index.html
+  - title: le château fort
+    target: "/le-numerique-dinteret-general/le-chateau-fort/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/le-chateau-fort"
+    file: content/fr/pages/le-numerique-dinteret-general/le-chateau-fort/_index.html
   path: "/pages/le-numerique-dinteret-general"
   file: content/fr/pages/le-numerique-dinteret-general/_index.html
 - title: Organisations
@@ -78,25 +127,4 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: la recyclerie
-  target: "/la-recyclerie/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/la-recyclerie"
-  file: content/fr/pages/la-recyclerie/_index.html
-- title: les chemins de traverse
-  target: "/les-chemins-de-traverse/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/les-chemins-de-traverse"
-  file: content/fr/pages/les-chemins-de-traverse/_index.html
-- title: le carrefour des possibles
-  target: "/le-carrefour-des-possibles/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/le-carrefour-des-possibles"
-  file: content/fr/pages/le-carrefour-des-possibles/_index.html
 
