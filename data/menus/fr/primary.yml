@@ -125,6 +125,48 @@ items:
     children: []
     path: "/pages/le-numerique-dinteret-general/le-contrat-local"
     file: content/fr/pages/le-numerique-dinteret-general/le-contrat-local/_index.html
+  - title: deux fleurs
+    target: "/le-numerique-dinteret-general/deux-fleurs/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/deux-fleurs"
+    file: content/fr/pages/le-numerique-dinteret-general/deux-fleurs/_index.html
+  - title: l'atelier artisanal
+    target: "/le-numerique-dinteret-general/latelier-artisanal/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/latelier-artisanal"
+    file: content/fr/pages/le-numerique-dinteret-general/latelier-artisanal/_index.html
+  - title: les jardins de la convivialité
+    target: "/le-numerique-dinteret-general/les-jardins-de-la-convivialite/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite"
+    file: content/fr/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite/_index.html
+  - title: les prés du libre
+    target: "/le-numerique-dinteret-general/les-pres-du-libre/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/les-pres-du-libre"
+    file: content/fr/pages/le-numerique-dinteret-general/les-pres-du-libre/_index.html
+  - title: l'agora
+    target: "/le-numerique-dinteret-general/lagora/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/lagora"
+    file: content/fr/pages/le-numerique-dinteret-general/lagora/_index.html
+  - title: le lac de clarté
+    target: "/le-numerique-dinteret-general/le-lac-de-clarte/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-numerique-dinteret-general/le-lac-de-clarte"
+    file: content/fr/pages/le-numerique-dinteret-general/le-lac-de-clarte/_index.html
   path: "/pages/le-numerique-dinteret-general"
   file: content/fr/pages/le-numerique-dinteret-general/_index.html
 - title: Organisations
@@ -141,11 +183,4 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: deux fleurs
-  target: "/deux-fleurs/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/deux-fleurs"
-  file: content/fr/pages/deux-fleurs/_index.html
 
