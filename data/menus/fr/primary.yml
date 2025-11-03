@@ -20,6 +20,97 @@ items:
     children: []
     path: "/pages/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles"
     file: content/fr/pages/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles/_index.html
+  - title: le gouffre des travailleurs du clic
+    target: "/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic"
+    file: content/fr/pages/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic/_index.html
+  - title: la décharge
+    target: "/le-digital-liberal-feodal/la-decharge/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/la-decharge"
+    file: content/fr/pages/le-digital-liberal-feodal/la-decharge/_index.html
+  - title: le péage du tout numérique
+    target: "/le-digital-liberal-feodal/le-peage-du-tout-numerique/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/le-peage-du-tout-numerique"
+    file: content/fr/pages/le-digital-liberal-feodal/le-peage-du-tout-numerique/_index.html
+  - title: les bambous invasifs
+    target: "/le-digital-liberal-feodal/les-bambous-invasifs/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-bambous-invasifs"
+    file: content/fr/pages/le-digital-liberal-feodal/les-bambous-invasifs/_index.html
+  - title: les brumes éternelles
+    target: "/le-digital-liberal-feodal/les-brumes-eternelles/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-brumes-eternelles"
+    file: content/fr/pages/le-digital-liberal-feodal/les-brumes-eternelles/_index.html
+  - title: les salons privés
+    target: "/le-digital-liberal-feodal/les-salons-prives/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-salons-prives"
+    file: content/fr/pages/le-digital-liberal-feodal/les-salons-prives/_index.html
+  - title: les barbelés des enclosures
+    target: "/le-digital-liberal-feodal/les-barbeles-des-enclosures/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-barbeles-des-enclosures"
+    file: content/fr/pages/le-digital-liberal-feodal/les-barbeles-des-enclosures/_index.html
+  - title: l'arène validiste
+    target: "/le-digital-liberal-feodal/larene-validiste/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/larene-validiste"
+    file: content/fr/pages/le-digital-liberal-feodal/larene-validiste/_index.html
+  - title: l'usine à gaz
+    target: "/le-digital-liberal-feodal/lusine-a-gaz/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/lusine-a-gaz"
+    file: content/fr/pages/le-digital-liberal-feodal/lusine-a-gaz/_index.html
+  - title: la diligence de la disruption
+    target: "/le-digital-liberal-feodal/la-diligence-de-la-disruption/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/la-diligence-de-la-disruption"
+    file: content/fr/pages/le-digital-liberal-feodal/la-diligence-de-la-disruption/_index.html
+  - title: le carrefour des truands
+    target: "/le-digital-liberal-feodal/le-carrefour-des-truands/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/le-carrefour-des-truands"
+    file: content/fr/pages/le-digital-liberal-feodal/le-carrefour-des-truands/_index.html
+  - title: les robots jardiniers
+    target: "/le-digital-liberal-feodal/les-robots-jardiniers/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/les-robots-jardiniers"
+    file: content/fr/pages/le-digital-liberal-feodal/les-robots-jardiniers/_index.html
+  - title: le tunnel technicien
+    target: "/le-digital-liberal-feodal/le-tunnel-technicien/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-digital-liberal-feodal/le-tunnel-technicien"
+    file: content/fr/pages/le-digital-liberal-feodal/le-tunnel-technicien/_index.html
   path: "/pages/le-digital-liberal-feodal"
   file: content/fr/pages/le-digital-liberal-feodal/_index.html
 - title: Le numérique d’intérêt général
@@ -183,4 +274,11 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
+- title: le crypto pigeonnier
+  target: "/le-crypto-pigeonnier/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/le-crypto-pigeonnier"
+  file: content/fr/pages/le-crypto-pigeonnier/_index.html
 
