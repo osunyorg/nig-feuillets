@@ -2,7 +2,6 @@ import { WORLD } from "js/play/data/world";
 import SpeakingThing from "./SpeakingThing";
 import UI from "js/play/UI";
 import { game } from "js/play/MainGame";
-import Sign from "./Sign";
 
 export default class City extends SpeakingThing {
   constructor(data) {
@@ -21,7 +20,7 @@ export default class City extends SpeakingThing {
     this.dialog.classList.add('game-dialog--action');
     this.dialog.addEventListener('click', () => this.openPopin());
 
-    // this.setImageFromDom();
+    this.setImageFromDom();
 
     this.attach(this.data.id);
     
@@ -37,6 +36,13 @@ export default class City extends SpeakingThing {
     // this.setupAnimation();
   }
 
+  manipulate (x, y) {
+    this.x += x;
+    this.y += y;
+
+    console.log(this.data.id, this.x, this.y)
+  }
+
   attach(id) {
     this.popin = UI.getPopin(id);
     if (this.popin) {
@@ -44,7 +50,7 @@ export default class City extends SpeakingThing {
     }
   }
 
-  setImageFromDom() {
+  setImageFromDom(id) {
     const image = document.querySelector(`#${this.data.id} img`);
     if (!image) {
       return;
@@ -87,16 +93,17 @@ export default class City extends SpeakingThing {
   }
 
   change() {
-      this.src = this.data.transformation.src;
-      this.x = this.data.transformation.x;
-      this.y = this.data.transformation.y;
+      // this.x = this.data.transformation.x;
+      // this.y = this.data.transformation.y;
       this.data.id = this.data.transformation.id
       this.attach(this.data.id);
-
+      this.setImageFromDom();
       game.scene.hero.isWalkingToTarget = false;
   }
 
   update() {
+    // game.ctx.globalAlpha = 0.5;
     super.update();
+    // game.ctx.globalAlpha = 1;
   }
 }

@@ -47,6 +47,7 @@ export default class Thing {
 
     // Collisions
     this.canCollide = true;
+    this.collidedObject = null;
     this.isCollided = false;
     this.wasCollided = false;
 
@@ -74,6 +75,7 @@ export default class Thing {
   }
 
   stopCollide() {
+    this.collidedObject = null;
   }
 
   onLoaded() {

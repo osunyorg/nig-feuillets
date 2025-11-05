@@ -72,6 +72,11 @@ export default class Hero extends Character {
   }
   listenControls() {
     let x = 0, y = 0;
+
+    if (this.controls.shiftKeyDown && this.isCollided) {
+      return this.manipulate();
+    }
+
     if (this.controls.actions.left) {
       x = -1
       this.flipY = true;
@@ -95,6 +100,22 @@ export default class Hero extends Character {
       this.setAnimation("idle");
       this.isWalking = false;
     }
+  }
+
+  onCollide(object) {
+    this.isCollided = true;
+    this.collidedObject = object;
+  }
+
+  stopCollide() {
+    this.collidedObject = null;
+  }
+
+  manipulate () {
+    const x = this.controls.actions.left ? -1 : (this.controls.actions.right ? 1 : 0),
+      y = this.controls.actions.up ? -1 : (this.controls.actions.down ? 1 : 0);
+    console.log(x, y)
+    this.collidedObject.manipulate(x, y);
   }
   goTo(x, y) {
     x -= this.width/2;

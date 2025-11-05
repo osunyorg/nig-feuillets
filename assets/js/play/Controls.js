@@ -9,6 +9,7 @@ export default class Controls {
       down: false,
       left: false
     };
+    this.shiftKeyDown = false;
 
     this.bindKeyboard();
     this.bindButtons();
@@ -16,6 +17,8 @@ export default class Controls {
   }
   bindKeyboard() {
     window.addEventListener('keydown', e => {
+      this.shiftKeyDown = e.shiftKey;
+
       if (e.code === 'ArrowRight') {
         this.actions.right = true;
       }
@@ -31,6 +34,8 @@ export default class Controls {
     });
 
     window.addEventListener('keyup', e => {
+      this.shiftKeyDown = false;
+
       if (e.code === 'ArrowRight') {
         this.actions.right = false;
       }
@@ -68,7 +73,6 @@ export default class Controls {
   bindMoveClick() {
     let x, y;
     game.canvas.addEventListener('click', (e) => {
-    //   console.log(e)
       x = e.offsetX - game.camera.x;
       y = e.offsetY - game.camera.y;
       game.scene.hero.goTo(x, y)

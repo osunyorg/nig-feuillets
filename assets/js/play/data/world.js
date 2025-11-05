@@ -7,6 +7,7 @@ export const WORLD = {
   width: 2692 / 2,
   height: 3231 / 2,
   mapSrc: '/assets/images/jouer/layers/map.png',
+  // mapSrc: '/assets/images/jouer/layers/map-filled.png', // use to debug placment
   animateIntroduction: true,
   hero: {
     x: 500,

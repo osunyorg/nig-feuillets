@@ -26,8 +26,6 @@ export default class Scene {
       // ...this.trolls,
       this.hero
     ]
-
-    console.log(this.elements)
   }
   doubleMatrix() {
     let matrice = [];
@@ -64,6 +62,7 @@ export default class Scene {
     this.cities.forEach(city => {
       if (this.hero.collides(city)) {
         city.onCollide();
+        this.hero.onCollide(city);
       }
     });
   }
