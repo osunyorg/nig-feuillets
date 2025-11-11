@@ -1,4 +1,5 @@
 import Scene from './Scene';
+import smoke from './ui/Smoke';
 
 export class Game {
   get width () {
@@ -48,6 +49,8 @@ export class Game {
     this.camera.y = -this.scene.hero.y - this.scene.hero.height / 2 + this.height / 2;
 
     this.canvas.style.backgroundPosition = `${this.camera.x}px ${this.camera.y}px`;
+
+    smoke.update(this.camera);
   }
   drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh) {
     this.ctx.drawImage(image, sx, sy, sw, sh, dx + this.camera.x, dy + this.camera.y, dw, dh);

@@ -93,7 +93,25 @@
     //         transform: translate(-50%, 100%)
     //         &.is-opened
     //             transform: translate(-50%, -50%)
+    &--title
+        transition: 0.4s
+        opacity: 0
+        transform: translateY(10%)
+        bottom: 0
+        top: auto
 
+        .close
+            display: none
+            position: absolute
+            top: 0
+            right: 0
+            z-index: 10
+        .popin-content
+            position: relative
+            padding-top: 100px
+        &.is-opened
+            opacity: 1
+            transform: translateY(0)
 
 .popin--end
     display: none
@@ -117,11 +135,14 @@
         display: block !important
 
 .city
-    padding: $spacing-3
-    background: white
+    --color-text: white
+    --color-background: black
+    color: var(--color-text)
+    padding: $spacing-1 $spacing-4
+    background: black
     position: relative
-    border: 1px solid #000
-    border-radius: 5px
+    // border: 1px solid #000
+    // border-radius: 5px
     text-align: center
     .content > *
         margin-top: $spacing-3
@@ -135,12 +156,13 @@
         top: 50px
         left: 50%
         transform: translate(-50%, -100%)
+        display: none
     .btn
         display: table
         margin: auto
 
 body.popin-is-opened
-    &::after
-        opacity: 1
-        background: rgba(255,255,255,0.2)
-        backdrop-filter: blur(3px)
+    // &::after
+    //     opacity: 1
+        // background: rgba(255,255,255,0.2)
+        // backdrop-filter: blur(3px)

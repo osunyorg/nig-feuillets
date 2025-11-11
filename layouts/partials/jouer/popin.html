@@ -3,7 +3,7 @@
 {{ $with_button := .with_button }}
 {{ $class := .class }}
 {{ with $page }}
-  <li class="popin popin--card {{ $class }}" id="{{ .Params.slug }}">
+  <li class="popin popin--title {{ $class }}" id="{{ .Params.slug }}">
     <div class="popin-content">
       <div class="city">
         <button class="close" title="Fermer"></button>
@@ -22,7 +22,7 @@
             "contents" .Params.contents
           ) }}
           {{ if $with_button }}
-            <button class="change-city-action btn" data-index="{{ $index }}">Découvrir</button>
+            <p class="change-city-action" data-index="{{ $index }}">Transformer</p>
           {{ end }}
         </div>
       </div>

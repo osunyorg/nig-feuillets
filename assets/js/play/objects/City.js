@@ -2,6 +2,7 @@ import { WORLD } from "js/play/data/world";
 import SpeakingThing from "./SpeakingThing";
 import UI from "js/play/UI";
 import { game } from "js/play/MainGame";
+import smoke from "../ui/Smoke";
 
 export default class City extends SpeakingThing {
   constructor(data) {
@@ -93,12 +94,15 @@ export default class City extends SpeakingThing {
   }
 
   change() {
-      // this.x = this.data.transformation.x;
-      // this.y = this.data.transformation.y;
-      this.data.id = this.data.transformation.id
-      this.attach(this.data.id);
-      this.setImageFromDom();
       game.scene.hero.isWalkingToTarget = false;
+
+      smoke.animate(this, () => {
+        // this.x = this.data.transformation.x;
+        // this.y = this.data.transformation.y;
+        this.data.id = this.data.transformation.id
+        this.attach(this.data.id);
+        this.setImageFromDom();
+      });
   }
 
   update() {
