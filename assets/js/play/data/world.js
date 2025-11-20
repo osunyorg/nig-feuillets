@@ -1,3 +1,5 @@
+import settings from "./settings";
+
 const forest1 = '/assets/images/jouer/elements/forest01.png',
   forest2 = '/assets/images/jouer/elements/forest02.png',
   rocks1 = '/assets/images/jouer/elements/rocks01.png',

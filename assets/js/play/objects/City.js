@@ -7,6 +7,7 @@ import smoke from "../ui/Smoke";
 export default class City extends SpeakingThing {
   constructor(data) {
     data.scale = data.scale || WORLD.cities.scale;
+    data.scale = WORLD.cities.scale;
     data.scale *= (1 / window.devicePixelRatio);
 
     super(data);

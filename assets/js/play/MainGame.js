@@ -1,3 +1,4 @@
+import settings from './data/settings';
 import Scene from './Scene';
 import smoke from './ui/Smoke';
 
@@ -34,9 +35,9 @@ export class Game {
   resize() {
     this.canvas.width = this.container.offsetWidth * window.devicePixelRatio;
     this.canvas.height = this.container.offsetHeight * window.devicePixelRatio;
-    this.canvas.style.width = this.container.offsetWidth + "px";
+    this.canvas.style.width = this.container.offsetWidth  + "px";
     this.canvas.style.height = this.container.offsetHeight + "px";
-    this.ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    this.ctx.scale(window.devicePixelRatio * settings.scale, window.devicePixelRatio * settings.scale);
   }
   loop () {
     this.tick += 1;
@@ -47,8 +48,14 @@ export class Game {
 
     this.camera.x = -this.scene.hero.x - this.scene.hero.width / 2 + this.width / 2;
     this.camera.y = -this.scene.hero.y - this.scene.hero.height / 2 + this.height / 2;
-
     this.canvas.style.backgroundPosition = `${this.camera.x}px ${this.camera.y}px`;
+
+    // if (settings.scale > 1) {
+    // this.camera.x += (this.width - (this.width * settings.scale));
+    // this.camera.x -= this.width / 2 * (1 / settings.scale);
+      // this.camera.y -= this.height * (1 / settings.scale) / 2;
+    // }
+    // this.camera.y -= (this.height) / settings.scale / settings.scale;
 
     smoke.update(this.camera);
   }

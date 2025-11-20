@@ -63,7 +63,7 @@ export const CITIES = [
     x: 556, 
     y: 342,
     scale: 0.8,
-    depthOffset: 0,
+    depthOffset: 80,
     transformation: {
       id: 'la-foret-comestible',
       x: 300,

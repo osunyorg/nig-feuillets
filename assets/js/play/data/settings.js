@@ -1,5 +1,6 @@
 const settings = {
-    extension: '.png'
+    extension: '.png',
+    scale: 1,
 }
 
 export default settings
