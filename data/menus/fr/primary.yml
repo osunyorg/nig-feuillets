@@ -2,325 +2,459 @@
 title: Menu principal
 items:
 - title: Le digital libéral féodal
+  slug: le-digital-liberal-feodal
   target: "/le-digital-liberal-feodal/"
   kind: page
   new_tab: false
   children:
   - title: Les centrales nucléaires de l’IA
+    slug: les-centrales-nucleaires-de-l-ia
     target: "/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia"
     file: content/fr/pages/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia/_index.html
   - title: La montagne de gadgets inutiles
+    slug: la-montagne-de-gadgets-inutiles
     target: "/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles"
     file: content/fr/pages/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles/_index.html
   - title: le gouffre des travailleurs du clic
+    slug: le-gouffre-des-travailleurs-du-clic
     target: "/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic"
     file: content/fr/pages/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic/_index.html
   - title: la décharge
+    slug: la-decharge
     target: "/le-digital-liberal-feodal/la-decharge/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/la-decharge"
     file: content/fr/pages/le-digital-liberal-feodal/la-decharge/_index.html
   - title: le péage du tout numérique
+    slug: le-peage-du-tout-numerique
     target: "/le-digital-liberal-feodal/le-peage-du-tout-numerique/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/le-peage-du-tout-numerique"
     file: content/fr/pages/le-digital-liberal-feodal/le-peage-du-tout-numerique/_index.html
   - title: les bambous invasifs
+    slug: les-bambous-invasifs
     target: "/le-digital-liberal-feodal/les-bambous-invasifs/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-bambous-invasifs"
     file: content/fr/pages/le-digital-liberal-feodal/les-bambous-invasifs/_index.html
   - title: les brumes éternelles
+    slug: les-brumes-eternelles
     target: "/le-digital-liberal-feodal/les-brumes-eternelles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-brumes-eternelles"
     file: content/fr/pages/le-digital-liberal-feodal/les-brumes-eternelles/_index.html
   - title: les salons privés
+    slug: les-salons-prives
     target: "/le-digital-liberal-feodal/les-salons-prives/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-salons-prives"
     file: content/fr/pages/le-digital-liberal-feodal/les-salons-prives/_index.html
   - title: les barbelés des enclosures
+    slug: les-barbeles-des-enclosures
     target: "/le-digital-liberal-feodal/les-barbeles-des-enclosures/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-barbeles-des-enclosures"
     file: content/fr/pages/le-digital-liberal-feodal/les-barbeles-des-enclosures/_index.html
   - title: l'arène validiste
+    slug: l-arene-validiste
     target: "/le-digital-liberal-feodal/larene-validiste/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/larene-validiste"
     file: content/fr/pages/le-digital-liberal-feodal/larene-validiste/_index.html
   - title: l'usine à gaz
+    slug: l-usine-a-gaz
     target: "/le-digital-liberal-feodal/lusine-a-gaz/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/lusine-a-gaz"
     file: content/fr/pages/le-digital-liberal-feodal/lusine-a-gaz/_index.html
   - title: la diligence de la disruption
+    slug: la-diligence-de-la-disruption
     target: "/le-digital-liberal-feodal/la-diligence-de-la-disruption/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/la-diligence-de-la-disruption"
     file: content/fr/pages/le-digital-liberal-feodal/la-diligence-de-la-disruption/_index.html
   - title: le carrefour des truands
+    slug: le-carrefour-des-truands
     target: "/le-digital-liberal-feodal/le-carrefour-des-truands/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/le-carrefour-des-truands"
     file: content/fr/pages/le-digital-liberal-feodal/le-carrefour-des-truands/_index.html
   - title: les robots jardiniers
+    slug: les-robots-jardiniers
     target: "/le-digital-liberal-feodal/les-robots-jardiniers/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-robots-jardiniers"
     file: content/fr/pages/le-digital-liberal-feodal/les-robots-jardiniers/_index.html
   - title: le tunnel technicien
+    slug: le-tunnel-technicien
     target: "/le-digital-liberal-feodal/le-tunnel-technicien/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/le-tunnel-technicien"
     file: content/fr/pages/le-digital-liberal-feodal/le-tunnel-technicien/_index.html
   - title: la nudge factory
+    slug: la-nudge-factory
     target: "/le-digital-liberal-feodal/la-nudge-factory/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/la-nudge-factory"
     file: content/fr/pages/le-digital-liberal-feodal/la-nudge-factory/_index.html
   - title: la tour en ruines
+    slug: la-tour-en-ruines
     target: "/le-digital-liberal-feodal/la-tour-en-ruines/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/la-tour-en-ruines"
     file: content/fr/pages/le-digital-liberal-feodal/la-tour-en-ruines/_index.html
   - title: les accords internationaux
+    slug: les-accords-internationaux
     target: "/le-digital-liberal-feodal/les-accords-internationaux/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-accords-internationaux"
     file: content/fr/pages/le-digital-liberal-feodal/les-accords-internationaux/_index.html
   - title: les câbles transatlantiques
+    slug: les-cables-transatlantiques
     target: "/le-digital-liberal-feodal/les-cables-transatlantiques/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/les-cables-transatlantiques"
     file: content/fr/pages/le-digital-liberal-feodal/les-cables-transatlantiques/_index.html
   - title: le marais des sombres desseins
+    slug: le-marais-des-sombres-desseins
     target: "/le-digital-liberal-feodal/le-marais-des-sombres-desseins/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/le-marais-des-sombres-desseins"
     file: content/fr/pages/le-digital-liberal-feodal/le-marais-des-sombres-desseins/_index.html
   - title: le crypto pigeonnier
+    slug: le-crypto-pigeonnier
     target: "/le-digital-liberal-feodal/le-crypto-pigeonnier/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-digital-liberal-feodal/le-crypto-pigeonnier"
     file: content/fr/pages/le-digital-liberal-feodal/le-crypto-pigeonnier/_index.html
+  descendants_targets:
+  - "/le-digital-liberal-feodal/la-decharge/"
+  - "/le-digital-liberal-feodal/la-diligence-de-la-disruption/"
+  - "/le-digital-liberal-feodal/la-montagne-de-gadgets-inutiles/"
+  - "/le-digital-liberal-feodal/la-nudge-factory/"
+  - "/le-digital-liberal-feodal/la-tour-en-ruines/"
+  - "/le-digital-liberal-feodal/larene-validiste/"
+  - "/le-digital-liberal-feodal/le-carrefour-des-truands/"
+  - "/le-digital-liberal-feodal/le-crypto-pigeonnier/"
+  - "/le-digital-liberal-feodal/le-gouffre-des-travailleurs-du-clic/"
+  - "/le-digital-liberal-feodal/le-marais-des-sombres-desseins/"
+  - "/le-digital-liberal-feodal/le-peage-du-tout-numerique/"
+  - "/le-digital-liberal-feodal/le-tunnel-technicien/"
+  - "/le-digital-liberal-feodal/les-accords-internationaux/"
+  - "/le-digital-liberal-feodal/les-bambous-invasifs/"
+  - "/le-digital-liberal-feodal/les-barbeles-des-enclosures/"
+  - "/le-digital-liberal-feodal/les-brumes-eternelles/"
+  - "/le-digital-liberal-feodal/les-cables-transatlantiques/"
+  - "/le-digital-liberal-feodal/les-centrales-nucleaires-de-lia/"
+  - "/le-digital-liberal-feodal/les-robots-jardiniers/"
+  - "/le-digital-liberal-feodal/les-salons-prives/"
+  - "/le-digital-liberal-feodal/lusine-a-gaz/"
   path: "/pages/le-digital-liberal-feodal"
   file: content/fr/pages/le-digital-liberal-feodal/_index.html
 - title: Le numérique d’intérêt général
+  slug: le-numerique-d-interet-general
   target: "/le-numerique-dinteret-general/"
   kind: page
   new_tab: false
   children:
   - title: La colline des besoins réels
+    slug: la-colline-des-besoins-reels
     target: "/le-numerique-dinteret-general/la-colline-des-besoins-reels/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels"
     file: content/fr/pages/le-numerique-dinteret-general/la-colline-des-besoins-reels/_index.html
   - title: Les moulins de la joie
+    slug: les-moulins-de-la-joie
     target: "/le-numerique-dinteret-general/les-moulins-de-la-joie/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/les-moulins-de-la-joie"
     file: content/fr/pages/le-numerique-dinteret-general/les-moulins-de-la-joie/_index.html
   - title: le plancher social
+    slug: le-plancher-social
     target: "/le-numerique-dinteret-general/le-plancher-social/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/le-plancher-social"
     file: content/fr/pages/le-numerique-dinteret-general/le-plancher-social/_index.html
   - title: la recyclerie
+    slug: la-recyclerie
     target: "/le-numerique-dinteret-general/la-recyclerie/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/la-recyclerie"
     file: content/fr/pages/le-numerique-dinteret-general/la-recyclerie/_index.html
   - title: les chemins de traverse
+    slug: les-chemins-de-traverse
     target: "/le-numerique-dinteret-general/les-chemins-de-traverse/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/les-chemins-de-traverse"
     file: content/fr/pages/le-numerique-dinteret-general/les-chemins-de-traverse/_index.html
   - title: la forêt comestible
+    slug: la-foret-comestible
     target: "/le-numerique-dinteret-general/la-foret-comestible/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/la-foret-comestible"
     file: content/fr/pages/le-numerique-dinteret-general/la-foret-comestible/_index.html
   - title: la caravane collective
+    slug: la-caravane-collective
     target: "/le-numerique-dinteret-general/la-caravane-collective/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/la-caravane-collective"
     file: content/fr/pages/le-numerique-dinteret-general/la-caravane-collective/_index.html
   - title: le carrefour des possibles
+    slug: le-carrefour-des-possibles
     target: "/le-numerique-dinteret-general/le-carrefour-des-possibles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/le-carrefour-des-possibles"
     file: content/fr/pages/le-numerique-dinteret-general/le-carrefour-des-possibles/_index.html
   - title: la caisse commune
+    slug: la-caisse-commune
     target: "/le-numerique-dinteret-general/la-caisse-commune/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/la-caisse-commune"
     file: content/fr/pages/le-numerique-dinteret-general/la-caisse-commune/_index.html
   - title: les jardins en permaculture
+    slug: les-jardins-en-permaculture
     target: "/le-numerique-dinteret-general/les-jardins-en-permaculture/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/les-jardins-en-permaculture"
     file: content/fr/pages/le-numerique-dinteret-general/les-jardins-en-permaculture/_index.html
   - title: le fablab
+    slug: le-fablab
     target: "/le-numerique-dinteret-general/le-fablab/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/le-fablab"
     file: content/fr/pages/le-numerique-dinteret-general/le-fablab/_index.html
   - title: le château fort
+    slug: le-chateau-fort
     target: "/le-numerique-dinteret-general/le-chateau-fort/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/le-chateau-fort"
     file: content/fr/pages/le-numerique-dinteret-general/le-chateau-fort/_index.html
   - title: l'atelier d'artistes
+    slug: l-atelier-d-artistes
     target: "/le-numerique-dinteret-general/latelier-dartistes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/latelier-dartistes"
     file: content/fr/pages/le-numerique-dinteret-general/latelier-dartistes/_index.html
   - title: le contrat local
+    slug: le-contrat-local
     target: "/le-numerique-dinteret-general/le-contrat-local/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/le-contrat-local"
     file: content/fr/pages/le-numerique-dinteret-general/le-contrat-local/_index.html
   - title: deux fleurs
+    slug: deux-fleurs
     target: "/le-numerique-dinteret-general/deux-fleurs/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/deux-fleurs"
     file: content/fr/pages/le-numerique-dinteret-general/deux-fleurs/_index.html
   - title: la clairière lumineuse
+    slug: la-clairiere-lumineuse
     target: "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/la-clairiere-lumineuse"
     file: content/fr/pages/le-numerique-dinteret-general/la-clairiere-lumineuse/_index.html
   - title: l'atelier artisanal
+    slug: l-atelier-artisanal
     target: "/le-numerique-dinteret-general/latelier-artisanal/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/latelier-artisanal"
     file: content/fr/pages/le-numerique-dinteret-general/latelier-artisanal/_index.html
   - title: les jardins de la convivialité
+    slug: les-jardins-de-la-convivialite
     target: "/le-numerique-dinteret-general/les-jardins-de-la-convivialite/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite"
     file: content/fr/pages/le-numerique-dinteret-general/les-jardins-de-la-convivialite/_index.html
   - title: les prés du libre
+    slug: les-pres-du-libre
     target: "/le-numerique-dinteret-general/les-pres-du-libre/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/les-pres-du-libre"
     file: content/fr/pages/le-numerique-dinteret-general/les-pres-du-libre/_index.html
   - title: l'agora
+    slug: l-agora
     target: "/le-numerique-dinteret-general/lagora/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/lagora"
     file: content/fr/pages/le-numerique-dinteret-general/lagora/_index.html
   - title: le lac de clarté
+    slug: le-lac-de-clarte
     target: "/le-numerique-dinteret-general/le-lac-de-clarte/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-numerique-dinteret-general/le-lac-de-clarte"
     file: content/fr/pages/le-numerique-dinteret-general/le-lac-de-clarte/_index.html
+  descendants_targets:
+  - "/le-numerique-dinteret-general/deux-fleurs/"
+  - "/le-numerique-dinteret-general/la-caisse-commune/"
+  - "/le-numerique-dinteret-general/la-caravane-collective/"
+  - "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
+  - "/le-numerique-dinteret-general/la-colline-des-besoins-reels/"
+  - "/le-numerique-dinteret-general/la-foret-comestible/"
+  - "/le-numerique-dinteret-general/la-recyclerie/"
+  - "/le-numerique-dinteret-general/lagora/"
+  - "/le-numerique-dinteret-general/latelier-artisanal/"
+  - "/le-numerique-dinteret-general/latelier-dartistes/"
+  - "/le-numerique-dinteret-general/le-carrefour-des-possibles/"
+  - "/le-numerique-dinteret-general/le-chateau-fort/"
+  - "/le-numerique-dinteret-general/le-contrat-local/"
+  - "/le-numerique-dinteret-general/le-fablab/"
+  - "/le-numerique-dinteret-general/le-lac-de-clarte/"
+  - "/le-numerique-dinteret-general/le-plancher-social/"
+  - "/le-numerique-dinteret-general/les-chemins-de-traverse/"
+  - "/le-numerique-dinteret-general/les-jardins-de-la-convivialite/"
+  - "/le-numerique-dinteret-general/les-jardins-en-permaculture/"
+  - "/le-numerique-dinteret-general/les-moulins-de-la-joie/"
+  - "/le-numerique-dinteret-general/les-pres-du-libre/"
   path: "/pages/le-numerique-dinteret-general"
   file: content/fr/pages/le-numerique-dinteret-general/_index.html
 - title: Organisations
+  slug: organisations
   target: "/organisations/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Équipe
+  slug: equipe
   target: "/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 
