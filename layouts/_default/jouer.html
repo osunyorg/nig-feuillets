@@ -10,7 +10,7 @@
     {{ partial "head/script.html" . }}
     {{ partial "head/extras.html" . }}
   </head>
-  <body class="{{ partial "GetBodyclass" . }}">
+  <body class="{{ partial "body/helpers/GetBodyclass" . }}">
     <div class="screen game" id="game">
 
       <div class="game-ui">
@@ -83,7 +83,7 @@
     {{ $js := resources.Get "js/play.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
     <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
     {{- if not hugo.IsProduction -}}
-      {{- partial "footer/debug.html" . -}}
+      {{- partial "scripts/debug.html" . -}}
     {{- end -}}
   </body>
 </html>
