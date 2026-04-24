@@ -15,42 +15,42 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/deux-fleurs/index.html"
+from = "/deux-fleurs/"
 to = "/le-numerique-dinteret-general/deux-fleurs/"
 
 [[redirects]]
-from = "/le-digital-liberal-feodal/les-robots-fermiers/index.html"
+from = "/le-digital-liberal-feodal/les-robots-fermiers/"
 to = "/le-digital-liberal-feodal/les-robots-jardiniers/"
 
 [[redirects]]
-from = "/le-crypto-pigeonnier/index.html"
+from = "/le-crypto-pigeonnier/"
 to = "/le-digital-liberal-feodal/le-crypto-pigeonnier/"
 
 [[redirects]]
-from = "/les-pres-du-libre/index.html"
+from = "/les-pres-du-libre/"
 to = "/le-numerique-dinteret-general/les-pres-du-libre/"
 
 [[redirects]]
-from = "/la-recyclerie/index.html"
+from = "/la-recyclerie/"
 to = "/le-numerique-dinteret-general/la-recyclerie/"
 
 [[redirects]]
-from = "/le-fablab/index.html"
+from = "/le-fablab/"
 to = "/le-numerique-dinteret-general/le-fablab/"
 
 [[redirects]]
-from = "/la-clairiere-lumineuse/index.html"
+from = "/la-clairiere-lumineuse/"
 to = "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
 
 [[redirects]]
-from = "/les-jardins-en-permaculture/index.html"
+from = "/les-jardins-en-permaculture/"
 to = "/le-numerique-dinteret-general/les-jardins-en-permaculture/"
 
 [[redirects]]
-from = "/le-carrefour-des-possibles/index.html"
+from = "/le-carrefour-des-possibles/"
 to = "/le-numerique-dinteret-general/le-carrefour-des-possibles/"
 
 [[redirects]]
-from = "/les-chemins-de-traverse/index.html"
+from = "/les-chemins-de-traverse/"
 to = "/le-numerique-dinteret-general/les-chemins-de-traverse/"
 
