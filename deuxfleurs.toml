@@ -14,3 +14,43 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/deux-fleurs/index.html"
+to = "/le-numerique-dinteret-general/deux-fleurs/"
+
+[[redirects]]
+from = "/le-digital-liberal-feodal/les-robots-fermiers/index.html"
+to = "/le-digital-liberal-feodal/les-robots-jardiniers/"
+
+[[redirects]]
+from = "/le-crypto-pigeonnier/index.html"
+to = "/le-digital-liberal-feodal/le-crypto-pigeonnier/"
+
+[[redirects]]
+from = "/les-pres-du-libre/index.html"
+to = "/le-numerique-dinteret-general/les-pres-du-libre/"
+
+[[redirects]]
+from = "/la-recyclerie/index.html"
+to = "/le-numerique-dinteret-general/la-recyclerie/"
+
+[[redirects]]
+from = "/le-fablab/index.html"
+to = "/le-numerique-dinteret-general/le-fablab/"
+
+[[redirects]]
+from = "/la-clairiere-lumineuse/index.html"
+to = "/le-numerique-dinteret-general/la-clairiere-lumineuse/"
+
+[[redirects]]
+from = "/les-jardins-en-permaculture/index.html"
+to = "/le-numerique-dinteret-general/les-jardins-en-permaculture/"
+
+[[redirects]]
+from = "/le-carrefour-des-possibles/index.html"
+to = "/le-numerique-dinteret-general/le-carrefour-des-possibles/"
+
+[[redirects]]
+from = "/les-chemins-de-traverse/index.html"
+to = "/le-numerique-dinteret-general/les-chemins-de-traverse/"
+
